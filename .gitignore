@@ -1,0 +1,21 @@
+# Python virtual environments
+venv/
+.venv/
+__venv__/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+dist/
+.env
+
+# Uploaded media assets (keeps the folder structure but ignores files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS & Editor configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
